@@ -1,0 +1,12 @@
+{
+  "name": "web3-orderbook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix Back-end/server && npm install --prefix Front-end",
+    "start": "concurrently \"npm start --prefix Back-end/server\" \"npm start --prefix Front-end\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
