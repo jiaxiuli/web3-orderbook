@@ -2,3 +2,8 @@
 node_modules/
 Back-end/server/node_modules/
 Front-end/node_modules/
+
+# macOS system files
+.DS_Store
+Back-end/.DS_Store
+Front-end/.DS_Store
